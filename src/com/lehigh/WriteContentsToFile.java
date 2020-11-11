@@ -34,14 +34,14 @@ public class WriteContentsToFile {
     public static void main(String[] args) throws IOException {
         WriteContentsToFile wctf = new WriteContentsToFile();
         wctf.fileLocation = "filename1.txt";
-        wctf.writeMethod_1();
-        wctf.writeMethod_1();
-        wctf.writeMethod_1();
+//        wctf.writeMethod_1();
+//        wctf.writeMethod_1();
+//        wctf.writeMethod_1();
+//        wctf.fileLocation = "filename2.txt";
+//        wctf.writeMethod_2();
+//        wctf.writeMethod_2();
+//        wctf.writeMethod_2();
         wctf.fileLocation = "filename2.txt";
-        wctf.writeMethod_2();
-        wctf.writeMethod_2();
-        wctf.writeMethod_2();
-        wctf.fileLocation = "filename3.txt";
         wctf.writeMethod_3();
         wctf.writeMethod_3();
         wctf.writeMethod_3();
