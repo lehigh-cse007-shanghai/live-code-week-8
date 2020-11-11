@@ -8,7 +8,7 @@ public class PassByValue {
     }
 
     public static void main(String[] args){
-        String s = "Hello";
+        String s = "Hello"; // primitive, just like int, double, float, char
         PassByValue pbv = new PassByValue();
         pbv.appendAAA(s);
         System.out.println(s);
