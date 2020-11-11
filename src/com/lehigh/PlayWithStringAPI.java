@@ -3,6 +3,7 @@ package com.lehigh;
 // https://docs.oracle.com/javase/8/docs/api/java/lang/String.html
 
 public class PlayWithStringAPI {
+    String s = "Hello Lehigh! Hello Shanghai! Hello Biden!";
 
     // charAt(int index)
 
