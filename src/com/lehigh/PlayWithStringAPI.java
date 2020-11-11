@@ -53,6 +53,7 @@ public class PlayWithStringAPI {  // Application Program Interface:
     void testEquals(){
         String s1 = "Hello";
         String s2 = "HellO";
+        System.out.println(s1.equals(s2));
         System.out.println(s1.equalsIgnoreCase(s2));
     }
 

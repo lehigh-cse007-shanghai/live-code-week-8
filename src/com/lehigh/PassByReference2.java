@@ -2,7 +2,7 @@ package com.lehigh;
 
 public class PassByReference2 {
 
-    public void appendAAA(StringBuilder sb){
+    public void appendAAA(StringBuilder sb){ // an object
         sb.append("AAA");
     }
 

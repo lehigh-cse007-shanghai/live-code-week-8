@@ -21,16 +21,17 @@ public class ReadContentsFromFile {
         File file = new File(fileLocation);
         BufferedReader br = new BufferedReader(new FileReader(file));
         String st;
-        while ((st = br.readLine()) != null)
-            System.out.println(st);
+        br.readLine();
+        br.readLine();
+        System.out.println(br.readLine());
+//        while ((st = br.readLine()) != null)
+//            System.out.println(st);
     }
 
     public static void main(String[] args) throws IOException {
         ReadContentsFromFile rcff = new ReadContentsFromFile();
-        rcff.fileLocation = "filename.txt";
-        rcff.readFileMethod_1();
+        rcff.fileLocation = "doc/filename.txt";
+//        rcff.readFileMethod_1();
         rcff.readFileMethod_2();
     }
-
-
 }
