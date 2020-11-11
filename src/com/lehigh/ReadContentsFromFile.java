@@ -21,9 +21,10 @@ public class ReadContentsFromFile {
         File file = new File(fileLocation);
         BufferedReader br = new BufferedReader(new FileReader(file));
         String st;
-        br.readLine();
-        br.readLine();
-        System.out.println(br.readLine());
+        String line1 = br.readLine();
+        String line2 = br.readLine();
+        String line3 = br.readLine();
+        System.out.println(line1 + line2 + line3);
 //        while ((st = br.readLine()) != null)
 //            System.out.println(st);
     }
